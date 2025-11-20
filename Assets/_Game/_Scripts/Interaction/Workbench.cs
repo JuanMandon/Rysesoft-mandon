@@ -1,21 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Workbench : MonoBehaviour, IInteractable
 {
     [SerializeField] GameObject craftingWindow;
-
+    [SerializeField] private UnityEvent onInteract;
+    
     private bool _open;
-
-    // Called by Interaction system
-    public void Interact()
-    {
-        if (_open) Close();
-        else Open();
-    }
-
-    public string GetInteractName() => "Use Workbench";
 
     void Awake()
     {
@@ -25,15 +18,15 @@ public class Workbench : MonoBehaviour, IInteractable
 
     void Open()
     {
+        onInteract?.Invoke();
         _open = true;
-        if (craftingWindow != null)
-            craftingWindow.SetActive(true);
+    }
+    
+    // Called by Interaction system
+    public void Interact()
+    {
+        Open();
     }
 
-    void Close()
-    {
-        _open = false;
-        if (craftingWindow != null)
-            craftingWindow.SetActive(false);
-    }
+    public string GetInteractName() => "Use Workbench 'E'";
 }
