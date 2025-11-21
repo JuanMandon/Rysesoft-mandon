@@ -1,5 +1,8 @@
 using UnityEngine;
 
+/// <summary>
+/// Rotates the object every frame so it always faces the main camera.
+/// </summary>
 public class LookAtCamera : MonoBehaviour
 {
     Camera _cam;

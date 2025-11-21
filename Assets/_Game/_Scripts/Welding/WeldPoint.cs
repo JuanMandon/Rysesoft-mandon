@@ -1,5 +1,9 @@
 using UnityEngine;
 
+/// <summary>
+/// Handles an individual weld point: stores activation state, shows visuals,
+/// plays particle effects, and notifies its parent WeldObject when activated.
+/// </summary>
 public class WeldPoint : MonoBehaviour
 {
     [HideInInspector] public bool Activated;

@@ -3,6 +3,11 @@ using TMPro;
 using DG.Tweening;
 using UnityEngine.Events;
 
+/// <summary>
+/// Manages a weldable object composed of multiple WeldPoints, updates weld
+/// progress UI, triggers particle and scale animations when fully welded,
+/// and invokes a completion event.
+/// </summary>
 public class WeldObject : MonoBehaviour
 {
     [SerializeField] private TMP_Text weldText;

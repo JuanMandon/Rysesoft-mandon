@@ -1,6 +1,5 @@
 using UnityEngine;
 using DG.Tweening;
-using UnityEngine.Serialization;
 
 /// <summary>
 /// Spins the text around the Y axis and animates a smooth vertical float motion.

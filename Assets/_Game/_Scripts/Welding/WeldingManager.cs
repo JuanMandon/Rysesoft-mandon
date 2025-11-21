@@ -1,6 +1,10 @@
 using UnityEngine;
 using UnityEngine.Events;
 
+/// <summary>
+/// Handles spawning weldable objects, placing them in the world,
+/// and activating weld points via raycasts while welding is active.
+/// </summary>
 public class WeldingManager : MonoBehaviour
 {
     [SerializeField] private Transform spawnPoint;

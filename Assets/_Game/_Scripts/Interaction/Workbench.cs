@@ -1,8 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
+/// <summary>
+/// Handles player interaction with a workbench, invoking events
+/// and showing the crafting window when activated.
+/// </summary>
 public class Workbench : MonoBehaviour, IInteractable
 {
     [SerializeField] GameObject craftingWindow;

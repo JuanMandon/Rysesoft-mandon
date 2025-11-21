@@ -1,6 +1,10 @@
 using UnityEngine;
 using UnityEngine.Events;
 
+/// <summary>
+/// Simple interactable item-pile container that opens a UI window
+/// and fires an event when the player interacts with it.
+/// </summary>
 public class ItemPile : MonoBehaviour, IInteractable
 {
     [SerializeField] GameObject pileWindow;

@@ -1,5 +1,9 @@
 using UnityEngine;
 
+/// <summary>
+/// Toggles between gameplay mode and UI mode by enabling/disabling
+/// cursor lock and the player's look script.
+/// </summary>
 public class UIModeController : MonoBehaviour
 {
     [SerializeField] private MonoBehaviour playerLook;

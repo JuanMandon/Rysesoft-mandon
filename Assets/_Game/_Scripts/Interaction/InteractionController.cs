@@ -1,6 +1,10 @@
 using UnityEngine;
 using TMPro;
 
+/// <summary>
+/// Handles raycast-based interaction detection, updates the interaction UI,
+/// and triggers interaction on key press.
+/// </summary>
 public class InteractionController : MonoBehaviour
 {
     [Header("Settings")]
