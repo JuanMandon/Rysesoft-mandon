@@ -9,7 +9,7 @@ https://github.com/JuanMandon/Rysesoft-mandon/releases/tag/Playable
 
 This Unity 2022.3.43f1 project demonstrates a welding and crafting system with interactive items, world UI feedback, and inventory management. It is designed to highlight clean, modular code and extensibility.
 
-Completed in under 4 hours, the prototype focuses on core gameplay systems and code speed.
+Completed in under 4 hours, the prototype focuses on core gameplay systems and rapid prototyping speed.
 
 ## Core Systems
 
