@@ -6899,7 +6899,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1290410747}
         m_TargetAssemblyTypeName: InventoryTransfer, Assembly-CSharp
         m_MethodName: TransferAll
         m_Mode: 1
