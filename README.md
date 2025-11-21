@@ -1,8 +1,9 @@
 # Unity Tech Test – Welding & Crafting Prototype
 
--Watch a short gameplay walkthrough here: 
+-Watch a short gameplay walkthrough here: https://youtu.be/_mKjFQrhxSw
 
--Playable build link:
+-Playable build link (click and download source.zip and play .exe in _Build):<br />
+https://github.com/JuanMandon/Rysesoft-mandon/releases/tag/Playable
 
 # Overview
 
